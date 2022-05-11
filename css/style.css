@@ -1,0 +1,130 @@
+.top_header{
+    height: 30px;
+}
+
+header nav .container-fluid ul li a{
+    color: black;
+}
+.nav_toggle{
+    background-color: lightgray;
+}
+.nav_toggle i{
+    padding: 20px;
+}
+.ab_btn{
+    background-color: #152125;
+    border-radius: 100px;
+    width: 100px;
+    text-align: center;
+}
+.jumbotron{
+    width: 100%;
+    height: auto;
+    background-image: url('./../img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+}
+.jumbo_content{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 50px;
+}
+.jumbo_content p{
+    max-width: 570px;
+}
+.jumbo_content .btn{
+    width: 150px;
+    background-color: #CD3D0F;
+    color: white;
+    border-radius: 100px;
+}
+.cards_container img{
+    border-radius: 20px;
+    padding: 3px;
+}
+.cards_container img:hover{
+    border: 2px solid #3F94DA;
+    cursor: pointer;
+}
+.text_content_ps5 .btn{
+    background-color: #2D64E6;
+    color: white;
+    border-radius: 100px;
+}
+.items_container{
+    padding: 10px;
+}
+.items_container:hover{
+    border-bottom: 2px solid #4095DA;
+}
+.it_takes_two{
+    background-image: url('.././img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+}
+.itw_content button{
+    background-color: #CD3D0F;
+    border-radius: 100px;
+}
+.new_release{
+    background-color: #1F1F1F;
+}
+.new_release_content .text-white img{
+    border-radius: 25px;
+}
+.btn_bg_blue{
+    background-color: #2D64E6;
+    border-radius: 100px;
+}
+.ps_plus{
+    background-color: #BEBCBB;
+    padding: 0 100px;
+}
+.btn_bg_light{
+    background-color:#D9DADC;
+    border-radius: 100px;
+    color: #2D64E6;
+}
+.ps_now{
+    background-color: #161C3B;
+    padding: 0 100px;
+}
+footer{
+    background-color: #00439C;
+    padding: 60px;
+}
+.language img{
+    width: 1em;
+    height: 1em;
+}
+.footer_list ul{
+    list-style: none;
+}
+.footer_list ul li{
+    color:white;
+}
+.text-underline{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.img_items img:hover{
+    opacity: 100 !important;
+    transition: 1s;
+    cursor: pointer;
+}
+.footer_list ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.sie_logo{
+    min-width: 100px;
+    width: 50%;
+}
+
+.hover_dropdown{
+    display: none;
+}
+header:hover .hover_dropdown{
+    display: block;
+}
